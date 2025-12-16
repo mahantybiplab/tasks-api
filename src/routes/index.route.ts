@@ -7,7 +7,7 @@ import { createRouter } from "@/lib/create-app";
 
 const router = createRouter()
   .openapi(createRoute({
-    tags:["Index"],
+    tags: ["Index"],
     method: "get",
     path: "/",
     responses: {
